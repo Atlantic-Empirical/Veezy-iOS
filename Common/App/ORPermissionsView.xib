@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ORPermissionsView">
+            <connections>
+                <outlet property="aiCamera" destination="22Z-fH-JgR" id="QPa-Dx-eSr"/>
+                <outlet property="aiLocation" destination="Uo9-lV-t5G" id="OuY-sX-6Ds"/>
+                <outlet property="aiMic" destination="akI-gb-39n" id="Arf-xh-HuB"/>
+                <outlet property="aiPush" destination="iyD-SN-p8P" id="8kW-OP-ldH"/>
+                <outlet property="btnCameraEnable" destination="Y5X-qW-1T8" id="qdf-S3-HCZ"/>
+                <outlet property="btnFinished" destination="oGu-ue-050" id="g37-uY-zHS"/>
+                <outlet property="btnLocationEnable" destination="ebK-rD-VyL" id="K5Z-8L-77X"/>
+                <outlet property="btnLocationNotNow" destination="QyB-h0-4tZ" id="YVG-FJ-MgQ"/>
+                <outlet property="btnMicEnable" destination="3ox-qJ-7pr" id="xuH-FD-6xd"/>
+                <outlet property="btnNotificationsEnable" destination="OFX-Wn-uG5" id="itl-4s-QtM"/>
+                <outlet property="btnPushNotNow" destination="0vK-r3-V7O" id="dfD-SZ-FsF"/>
+                <outlet property="imgCameraIcon" destination="rnW-dQ-PKX" id="yMp-Zz-X3e"/>
+                <outlet property="imgCheck_Camera" destination="AOr-Td-Fby" id="a4G-zL-jw8"/>
+                <outlet property="imgCheck_Location" destination="Zc6-kZ-4I9" id="iDG-nz-NYh"/>
+                <outlet property="imgCheck_Mic" destination="UfS-W4-dsi" id="Zds-9B-gEn"/>
+                <outlet property="imgCheck_Notifications" destination="PkV-YC-kqz" id="ghG-NU-7w7"/>
+                <outlet property="imgLocationIcon" destination="Feg-Gz-Qni" id="TLT-6l-qD0"/>
+                <outlet property="imgMap" destination="bSM-lU-chb" id="UTd-wE-iLg"/>
+                <outlet property="imgPushIcon" destination="cxe-aY-gPB" id="UJN-Wy-Bzb"/>
+                <outlet property="micIcon" destination="vMq-IS-OaS" id="Q6u-V9-HF2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewCamera" destination="ASv-OL-l9x" id="ek4-T4-SON"/>
+                <outlet property="viewCameraEnable" destination="l4j-xd-qoe" id="a2e-iZ-9Gi"/>
+                <outlet property="viewHeader" destination="i87-Qf-S1i" id="Oae-r0-jIB"/>
+                <outlet property="viewLocation" destination="CNc-pv-eLx" id="rbW-dH-5xx"/>
+                <outlet property="viewLocationEnable" destination="KtL-Lz-sNo" id="olO-Y0-GTU"/>
+                <outlet property="viewMicEnable" destination="5fY-Dr-nQ7" id="gRC-Ct-7yV"/>
+                <outlet property="viewMicrophone" destination="CB6-1P-RU5" id="j1H-65-BxW"/>
+                <outlet property="viewNotificationsEnable" destination="Swy-8w-h2q" id="Yqc-X5-MLD"/>
+                <outlet property="viewPush" destination="4H2-Q9-mFu" id="u2F-L2-sGl"/>
+                <outlet property="viewVideoPreview" destination="oFH-fr-uMj" id="dAs-45-u1H"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="i87-Qf-S1i" userLabel="View - Header">
+                    <rect key="frame" x="0.0" y="20" width="320" height="173"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="veezy-center-nav-icon-66x.png" id="xao-v5-lSM">
+                            <rect key="frame" x="127" y="9" width="66" height="66"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Veezy Needs Your Permission" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h3W-mW-pjy">
+                            <rect key="frame" x="-9" y="82" width="339" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="22"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" id="Nfi-z6-OMY">
+                            <rect key="frame" x="0.0" y="120" width="320" height="53"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In order to do my amazing thing - I need some permissions from you...please." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3EW-Q7-8j5">
+                                    <rect key="frame" x="12" y="8" width="296" height="35"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="12"/>
+                                    <color key="textColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="ASv-OL-l9x" userLabel="View - Camera">
+                    <rect key="frame" x="0.0" y="201" width="320" height="52"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" id="l4j-xd-qoe">
+                            <rect key="frame" x="226" y="2" width="86" height="48"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" id="oFH-fr-uMj" customClass="ORCapturePreview">
+                                    <rect key="frame" x="0.0" y="0.0" width="86" height="48"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </view>
+                                <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera-icon-black-36x.png" id="rnW-dQ-PKX">
+                                    <rect key="frame" x="25" y="-1" width="36" height="36"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Y5X-qW-1T8">
+                                    <rect key="frame" x="0.0" y="0.0" width="86" height="48"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="28" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Enable">
+                                        <color key="titleColor" red="0.0" green="0.66666668650000005" blue="0.37254902719999999" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnCameraEnable_TouchUpInside:" destination="-1" eventType="touchUpInside" id="dU7-Eq-tAI"/>
+                                    </connections>
+                                </button>
+                                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="white" id="22Z-fH-JgR">
+                                    <rect key="frame" x="33" y="14" width="20" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="color" red="0.34117648010000001" green="0.50196081400000003" blue="0.75686281919999998" alpha="1" colorSpace="deviceRGB"/>
+                                </activityIndicatorView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666669999997" alpha="0.14000000000000001" colorSpace="calibratedWhite"/>
+                        </view>
+                        <imageView userInteractionEnabled="NO" alpha="0.90000000000000013" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check-green-circle-icon-44x.png" id="AOr-Td-Fby">
+                            <rect key="frame" x="247" y="4" width="44" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2VH-3s-lUW">
+                            <rect key="frame" x="20" y="15" width="120" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="CB6-1P-RU5" userLabel="View - Microphone">
+                    <rect key="frame" x="0.0" y="254" width="320" height="52"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" id="5fY-Dr-nQ7">
+                            <rect key="frame" x="226" y="2" width="86" height="48"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mic-icon-black-36x.png" id="vMq-IS-OaS">
+                                    <rect key="frame" x="25" y="0.0" width="36" height="36"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3ox-qJ-7pr">
+                                    <rect key="frame" x="0.0" y="0.0" width="86" height="48"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="30" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Enable">
+                                        <color key="titleColor" red="0.0" green="0.66666668650000005" blue="0.37254902719999999" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnMicEnable_TouchUpInside:" destination="-1" eventType="touchUpInside" id="xOz-CW-cpZ"/>
+                                    </connections>
+                                </button>
+                                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="white" id="akI-gb-39n">
+                                    <rect key="frame" x="33" y="14" width="20" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="color" red="0.34117648010000001" green="0.50196081400000003" blue="0.75686281919999998" alpha="1" colorSpace="deviceRGB"/>
+                                </activityIndicatorView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666669999997" alpha="0.14000000000000001" colorSpace="calibratedWhite"/>
+                        </view>
+                        <imageView userInteractionEnabled="NO" alpha="0.90000000000000013" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check-green-circle-icon-44x.png" id="UfS-W4-dsi">
+                            <rect key="frame" x="247" y="4" width="44" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Microphone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FoV-Uk-ItF">
+                            <rect key="frame" x="20" y="12" width="120" height="28"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="CNc-pv-eLx" userLabel="View - Location">
+                    <rect key="frame" x="0.0" y="307" width="320" height="52"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" id="KtL-Lz-sNo">
+                            <rect key="frame" x="226" y="2" width="86" height="48"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="bSM-lU-chb">
+                                    <rect key="frame" x="0.0" y="0.0" width="86" height="48"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location-peg-icon-black-36x.png" id="Feg-Gz-Qni">
+                                    <rect key="frame" x="25" y="-2" width="36" height="36"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ebK-rD-VyL">
+                                    <rect key="frame" x="0.0" y="0.0" width="86" height="48"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="30" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Enable">
+                                        <color key="titleColor" red="0.0" green="0.66666668650000005" blue="0.37254902719999999" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnLocationEnable_TouchUpInside:" destination="-1" eventType="touchUpInside" id="Fdw-Rp-4Pc"/>
+                                    </connections>
+                                </button>
+                                <imageView userInteractionEnabled="NO" alpha="0.90000000000000013" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check-green-circle-icon-44x.png" id="Zc6-kZ-4I9">
+                                    <rect key="frame" x="21" y="2" width="44" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="white" id="Uo9-lV-t5G">
+                                    <rect key="frame" x="33" y="14" width="20" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="color" red="0.34117648010000001" green="0.50196081400000003" blue="0.75686281919999998" alpha="1" colorSpace="deviceRGB"/>
+                                </activityIndicatorView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666669999997" alpha="0.14000000000000001" colorSpace="calibratedWhite"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mTs-WQ-Yt8">
+                            <rect key="frame" x="20" y="15" width="120" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" id="QyB-h0-4tZ">
+                            <rect key="frame" x="172" y="11" width="46" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                            <state key="normal" title="Not Now">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnLocationNotNow_TouchUpInside:" destination="-1" eventType="touchUpInside" id="ahk-CB-H4z"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" id="4H2-Q9-mFu" userLabel="View - Push">
+                    <rect key="frame" x="0.0" y="360" width="320" height="52"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" id="Swy-8w-h2q">
+                            <rect key="frame" x="226" y="2" width="86" height="48"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bell-icon-black-36x.png" id="cxe-aY-gPB">
+                                    <rect key="frame" x="25" y="-1" width="36" height="36"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OFX-Wn-uG5">
+                                    <rect key="frame" x="0.0" y="0.0" width="86" height="48"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                                    <inset key="contentEdgeInsets" minX="0.0" minY="30" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Enable">
+                                        <color key="titleColor" red="0.0" green="0.66666668650000005" blue="0.37254902719999999" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnNotifications_TouchUpInside:" destination="-1" eventType="touchUpInside" id="ixv-nt-LGS"/>
+                                    </connections>
+                                </button>
+                                <imageView userInteractionEnabled="NO" alpha="0.90000000000000013" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="check-green-circle-icon-44x.png" id="PkV-YC-kqz">
+                                    <rect key="frame" x="21" y="2" width="44" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="white" id="iyD-SN-p8P">
+                                    <rect key="frame" x="33" y="14" width="20" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="color" red="0.34117648010000001" green="0.50196081400000003" blue="0.75686281919999998" alpha="1" colorSpace="deviceRGB"/>
+                                </activityIndicatorView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666669999997" alpha="0.14000000000000001" colorSpace="calibratedWhite"/>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notifications" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="z7h-qb-CGG">
+                            <rect key="frame" x="20" y="15" width="120" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" id="0vK-r3-V7O">
+                            <rect key="frame" x="172" y="11" width="46" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                            <state key="normal" title="Not Now">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnPushNotNow_TouchUpInside:" destination="-1" eventType="touchUpInside" id="apC-gn-Iu1"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oGu-ue-050">
+                    <rect key="frame" x="8" y="420" width="304" height="52"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.34117648010000001" green="0.50196081400000003" blue="0.75686281919999998" alpha="1" colorSpace="deviceRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="19"/>
+                    <state key="normal" title="Get Started!">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnFinished_TouchUpInside:" destination="-1" eventType="touchUpInside" id="qEd-Q7-3x4"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.94117647059999998" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="573" y="408"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bell-icon-black-36x.png" width="36" height="36"/>
+        <image name="camera-icon-black-36x.png" width="36" height="36"/>
+        <image name="check-green-circle-icon-44x.png" width="44" height="44"/>
+        <image name="location-peg-icon-black-36x.png" width="36" height="36"/>
+        <image name="mic-icon-black-36x.png" width="36" height="36"/>
+        <image name="veezy-center-nav-icon-66x.png" width="66" height="66"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,48 @@
+
+/* Class = "IBUILabel"; text = "Liked"; ObjectID = "0yH-Cm-6pE"; */
+"0yH-Cm-6pE.text" = "pt_Liked";
+
+/* Class = "IBUILabel"; text = "Views"; ObjectID = "4S5-Vk-4fv"; */
+"4S5-Vk-4fv.text" = "pt_Views";
+
+/* Class = "IBUILabel"; text = "Followers"; ObjectID = "HOM-hd-gvK"; */
+"HOM-hd-gvK.text" = "pt_Followers";
+
+/* Class = "IBUILabel"; text = "555K"; ObjectID = "K0U-D2-uxM"; */
+"K0U-D2-uxM.text" = "555K";
+
+/* Class = "IBUITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "KzT-iw-QnA"; */
+"KzT-iw-QnA.text" = "pt_Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "Qlm-z8-bE9"; */
+"Qlm-z8-bE9.text" = "0";
+
+/* Class = "IBUILabel"; text = "Likes"; ObjectID = "QsH-HZ-pSg"; */
+"QsH-HZ-pSg.text" = "pt_Likes";
+
+/* Class = "IBUILabel"; text = "555K"; ObjectID = "Wfn-ZE-E5e"; */
+"Wfn-ZE-E5e.text" = "555K";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "Wy4-hg-4Bx"; */
+"Wy4-hg-4Bx.text" = "0";
+
+/* Class = "IBUILabel"; text = "Recent"; ObjectID = "eMZ-Se-EPm"; */
+"eMZ-Se-EPm.text" = "pt_Recent";
+
+/* Class = "IBUIButton"; normalTitle = "following"; ObjectID = "lcM-Za-NIa"; */
+"lcM-Za-NIa.normalTitle" = "following";
+
+/* Class = "IBUILabel"; text = "Following"; ObjectID = "ngA-Mz-0rf"; */
+"ngA-Mz-0rf.text" = "pt_Following";
+
+/* Class = "IBUILabel"; text = "Reposts"; ObjectID = "nrL-lc-KXT"; */
+"nrL-lc-KXT.text" = "pt_Reposts";
+
+/* Class = "IBUILabel"; text = "555K"; ObjectID = "uae-NX-Sb4"; */
+"uae-NX-Sb4.text" = "555K";
+
+/* Class = "IBUILabel"; text = "Thomas Purnell-Fisher"; ObjectID = "wbe-3c-hp5"; */
+"wbe-3c-hp5.text" = "Thomas Purnell-Fisher";
+
+/* Class = "IBUILabel"; text = "0 VIDEOS"; ObjectID = "yB9-mm-wLy"; */
+"yB9-mm-wLy.text" = "0 VIDEOS";

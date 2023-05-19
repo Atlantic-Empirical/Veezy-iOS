@@ -1,0 +1,20 @@
+Useful links
+
+http://www.gdcl.co.uk/2013/02/20/iOS-Video-Encoding.html
+RTSP Video Encoding on iOS
+
+Reads the generated MP4 file on realtime, using some hacks to "guess" the file trailer before it's written. Works with video only, no audio.
+
+
+http://tools.ietf.org/html/draft-pantos-http-live-streaming-07#page-16
+HTTP Live Streaming (HLS) Draft
+
+"Transport Stream segments MUST contain a single MPEG-2 Program. There SHOULD be a Program Association Table (PAT) and a Program Map Table (PMT) at the start of each segment.  A segment that contains video SHOULD have at least one key frame and enough information to completely initialize a video decoder.
+
+A media segment MUST be the continuation of the encoded media at the end of the segment with the previous sequence number, where values in a continuous series, such as timestamps and Continuity Counters, continue uninterrupted - unless the media segment was the first ever to appear in the Playlist file or has an EXT-X-DISCONTINUITY tag applied to it."
+
+
+http://en.wikipedia.org/wiki/MPEG_transport_stream
+MPEG TS On Wikipedia
+
+Some info about PAT and PMT

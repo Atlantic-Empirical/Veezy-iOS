@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document propertyAccessControl="none" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" toolsVersion="4514" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder customClass="OREventFeaturedStuffView" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner">
+            <connections>
+                <outlet destination="Xre-NU-afA" id="Y6e-9L-NWB" property="btnPeople"/>
+                <outlet destination="Ntv-Pe-vry" id="0LU-Tz-sYC" property="btnVideos"/>
+                <outlet destination="Qzu-ed-q89" id="DaD-AH-gt7" property="tblMain"/>
+                <outlet destination="1" id="3" property="view"/>
+                <outlet destination="l07-rj-DbP" id="H11-fM-geX" property="viewHost"/>
+            </connections>
+        </placeholder>
+        <placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect height="568" key="frame" width="320" x="0.0" y="0.0"/>
+            <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="l07-rj-DbP">
+                    <rect height="538" key="frame" width="320" x="0.0" y="30"/>
+                    <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+                    <subviews>
+                        <tableView alwaysBounceVertical="YES" clipsSubviews="YES" contentMode="scaleToFill" id="Qzu-ed-q89" rowHeight="72" sectionFooterHeight="22" sectionHeaderHeight="22" separatorStyle="default" style="plain">
+                            <rect height="538" key="frame" width="320" x="0.0" y="0.0"/>
+                            <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+                            <color alpha="1" colorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+                            <connections>
+                                <outlet destination="-1" id="cde-Py-8JY" property="dataSource"/>
+                                <outlet destination="-1" id="9as-ij-K6J" property="delegate"/>
+                            </connections>
+                        <userDefinedRuntimeAttributes/></tableView>
+                    </subviews>
+                    <color alpha="1" colorSpace="custom" customColorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+                <userDefinedRuntimeAttributes/></view>
+                <button buttonType="roundedRect" contentHorizontalAlignment="center" contentMode="scaleToFill" contentVerticalAlignment="center" id="Ntv-Pe-vry" lineBreakMode="middleTruncation" opaque="NO">
+                    <rect height="30" key="frame" width="160" x="0.0" y="0.0"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                    <color alpha="0.71999999999999997" blue="0.23781733050000001" colorSpace="calibratedRGB" green="0.49921261449999998" key="backgroundColor" red="0.096376921039999994"/>
+                    <state key="normal" title="Videos">
+                        <color alpha="1" colorSpace="calibratedWhite" key="titleColor" white="1"/>
+                        <color alpha="1" colorSpace="calibratedWhite" key="titleShadowColor" white="0.5"/>
+                    </state>
+                    <connections>
+                        <action destination="-1" eventType="touchUpInside" id="V2t-7j-Gl2" selector="btnVideos_TouchUpInside:"/>
+                    </connections>
+                <userDefinedRuntimeAttributes/></button>
+                <button buttonType="roundedRect" contentHorizontalAlignment="center" contentMode="scaleToFill" contentVerticalAlignment="center" id="Xre-NU-afA" lineBreakMode="middleTruncation" opaque="NO">
+                    <rect height="30" key="frame" width="160" x="160" y="0.0"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                    <color alpha="0.71999999999999997" blue="0.23781733050000001" colorSpace="calibratedRGB" green="0.49921261449999998" key="backgroundColor" red="0.096376921039999994"/>
+                    <fontDescription key="fontDescription" pointSize="17" type="system"/>
+                    <state key="normal" title="People">
+                        <color alpha="1" colorSpace="calibratedWhite" key="titleColor" white="1"/>
+                        <color alpha="1" colorSpace="calibratedWhite" key="titleShadowColor" white="0.5"/>
+                    </state>
+                    <connections>
+                        <action destination="-1" eventType="touchUpInside" id="sv3-mf-O8Y" selector="btnPeople_TouchUpInside:"/>
+                    </connections>
+                <userDefinedRuntimeAttributes/></button>
+            </subviews>
+            <color alpha="1" colorSpace="custom" customColorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        <userDefinedRuntimeAttributes/></view>
+    </objects>
+</document>

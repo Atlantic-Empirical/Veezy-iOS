@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document propertyAccessControl="none" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" toolsVersion="4514" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder customClass="ORLeadEventOpeningInterstitialView" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner">
+            <connections>
+                <outlet destination="9s4-8x-Maz" id="V8n-5X-nPC" property="btnContinue"/>
+                <outlet destination="xQn-E4-XkU" id="QSY-2C-10A" property="btnGoToEvent"/>
+                <outlet destination="kk9-5L-gmi" id="ADQ-y5-Pw7" property="imgMain"/>
+                <outlet destination="w30-m7-13y" id="q0D-0X-9Df" property="lblEventName"/>
+                <outlet destination="8Wm-5n-hmi" id="HeC-0I-sp6" property="lblSponsorName"/>
+                <outlet destination="1" id="3" property="view"/>
+            </connections>
+        </placeholder>
+        <placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect height="568" key="frame" width="320" x="0.0" y="0.0"/>
+            <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="9o2-3B-Z8C">
+                    <rect height="338" key="frame" width="320" x="0.0" y="115"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" flexibleMinX="YES" flexibleMinY="YES" key="autoresizingMask"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="1Va-Iz-uHb">
+                            <rect height="224" key="frame" width="300" x="10" y="73"/>
+                            <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" flexibleMinX="YES" flexibleMinY="YES" key="autoresizingMask"/>
+                            <subviews>
+                                <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" id="kk9-5L-gmi" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                                    <rect height="68" key="frame" width="260" x="20" y="10"/>
+                                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                                <userDefinedRuntimeAttributes/></imageView>
+                                <button buttonType="roundedRect" contentHorizontalAlignment="center" contentMode="scaleToFill" contentVerticalAlignment="center" id="xQn-E4-XkU" lineBreakMode="middleTruncation" opaque="NO">
+                                    <rect height="39" key="frame" width="215" x="43" y="173"/>
+                                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                                    <color alpha="1" blue="1" colorSpace="calibratedRGB" green="0.47843137250000001" key="backgroundColor" red="0.0"/>
+                                    <fontDescription key="fontDescription" pointSize="22" type="system"/>
+                                    <state key="normal" title="Be There Now!">
+                                        <color alpha="1" colorSpace="calibratedWhite" key="titleColor" white="1"/>
+                                        <color alpha="1" colorSpace="calibratedWhite" key="titleShadowColor" white="0.5"/>
+                                    </state>
+                                    <connections>
+                                        <action destination="-1" eventType="touchUpInside" id="GPU-Z7-6s9" selector="btnGoToEvent_TouchUpInside:"/>
+                                    </connections>
+                                <userDefinedRuntimeAttributes/></button>
+                                <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" id="w30-m7-13y" lineBreakMode="tailTruncation" opaque="NO" text="[Event Name]" textAlignment="center" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                                    <rect height="48" key="frame" width="260" x="20" y="77"/>
+                                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                                    <fontDescription family="Helvetica Neue" key="fontDescription" name="HelveticaNeue-Thin" pointSize="31"/>
+                                    <color cocoaTouchSystemColor="darkTextColor" key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes/></label>
+                                <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" id="8Wm-5n-hmi" lineBreakMode="tailTruncation" opaque="NO" text="[Event Sponsor]" textAlignment="center" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                                    <rect height="26" key="frame" width="260" x="20" y="138"/>
+                                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                                    <fontDescription family="Helvetica Neue" key="fontDescription" name="HelveticaNeue-Thin" pointSize="20"/>
+                                    <color cocoaTouchSystemColor="darkTextColor" key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes/></label>
+                                <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" id="FQa-j3-Oor" lineBreakMode="tailTruncation" opaque="NO" text="presented in CloudCam by" textAlignment="center" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                                    <rect height="16" key="frame" width="260" x="20" y="125"/>
+                                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                                    <fontDescription family="Helvetica Neue" key="fontDescription" name="HelveticaNeue-Medium" pointSize="11"/>
+                                    <color alpha="1" colorSpace="calibratedWhite" key="textColor" white="0.33333333333333331"/>
+                                    <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes/></label>
+                            </subviews>
+                            <color alpha="1" colorSpace="calibratedWhite" key="backgroundColor" white="0.89331937123493976"/>
+                        <userDefinedRuntimeAttributes/></view>
+                        <button buttonType="roundedRect" contentHorizontalAlignment="center" contentMode="scaleToFill" contentVerticalAlignment="center" id="9s4-8x-Maz" lineBreakMode="middleTruncation" opaque="NO">
+                            <rect height="33" key="frame" width="127" x="97" y="305"/>
+                            <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" flexibleMinX="YES" key="autoresizingMask"/>
+                            <color alpha="1" colorSpace="calibratedWhite" key="backgroundColor" white="0.33333333333333331"/>
+                            <fontDescription key="fontDescription" pointSize="17" type="system"/>
+                            <state key="normal" title="Continue">
+                                <color alpha="1" colorSpace="calibratedWhite" key="titleColor" white="1"/>
+                                <color alpha="1" colorSpace="calibratedWhite" key="titleShadowColor" white="0.5"/>
+                            </state>
+                            <connections>
+                                <action destination="-1" eventType="touchUpInside" id="Gxo-ad-CJa" selector="btnContinue_TouchUpInside:"/>
+                            </connections>
+                        <userDefinedRuntimeAttributes/></button>
+                        <view contentMode="scaleToFill" id="f8U-Cy-knr">
+                            <rect height="65" key="frame" width="160" x="80" y="0.0"/>
+                            <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" flexibleMinX="YES" key="autoresizingMask"/>
+                            <subviews>
+                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" id="gr1-8C-u67" image="cc-camera-clouds-43x29.png" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                                    <rect height="17" key="frame" width="28" x="66" y="10"/>
+                                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" flexibleMinX="YES" key="autoresizingMask"/>
+                                <userDefinedRuntimeAttributes/></imageView>
+                                <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" id="sK3-No-bC7" lineBreakMode="tailTruncation" opaque="NO" text="CloudCam" textAlignment="center" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                                    <rect height="28" key="frame" width="119" x="21" y="29"/>
+                                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" flexibleMinX="YES" key="autoresizingMask"/>
+                                    <fontDescription family="Helvetica Neue" key="fontDescription" name="HelveticaNeue-UltraLight" pointSize="27"/>
+                                    <color alpha="1" colorSpace="calibratedWhite" key="textColor" white="1"/>
+                                    <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes/></label>
+                            </subviews>
+                            <color alpha="1" colorSpace="calibratedWhite" key="backgroundColor" white="0.33333333333333331"/>
+                        <userDefinedRuntimeAttributes/></view>
+                    </subviews>
+                    <color alpha="0.0" colorSpace="calibratedWhite" key="backgroundColor" white="0.0"/>
+                <userDefinedRuntimeAttributes/></view>
+            </subviews>
+            <color alpha="0.80000000000000004" colorSpace="calibratedWhite" key="backgroundColor" white="0.0"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        <userDefinedRuntimeAttributes/></view>
+    </objects>
+    <resources>
+        <image height="29" name="cc-camera-clouds-43x29.png" width="43"/>
+    </resources>
+</document>

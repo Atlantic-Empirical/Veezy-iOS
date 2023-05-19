@@ -1,0 +1,32 @@
+# Build
+
+1. Install yasm:
+
+curl -#LO http://www.tortall.net/projects/yasm/releases/yasm-1.2.0.tar.gz
+tar -xzf yasm-1.2.0.tar.gz
+cd yasm-*/
+./configure && make -j 4 && sudo make install; cd ..
+
+2. Install gas-preprocessor
+
+sudo curl -L https://github.com/libav/gas-preprocessor/raw/master/gas-preprocessor.pl -o /usr/local/bin/gas-preprocessor.pl
+sudo chmod +x /usr/local/bin/gas-preprocessor.pl
+
+3. Run "./build-ffmpeg.sh"
+
+4. Delete "/dependencies/bin"
+
+5. Delete "/build"
+
+# UPDATES
+
+## 
+
+12/11/2014
+
+- Updated ffmpeg to 2.2.11
+- Enabled 64-bit build
+
+11/10/2013
+
+- Updated ffmpeg to 2.1

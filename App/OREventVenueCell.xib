@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document propertyAccessControl="none" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" toolsVersion="4514" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder customClass="OREventVenueCell" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner"/>
+        <placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+        <tableViewCell contentMode="scaleToFill" customClass="OREventVenueCell" id="ZjA-nt-CWm" indentationWidth="10" rowHeight="62" selectionStyle="default">
+            <rect height="62" key="frame" width="320" x="0.0" y="0.0"/>
+            <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+            <tableViewCellContentView clipsSubviews="YES" contentMode="center" id="UkI-3a-uM5" key="contentView" multipleTouchEnabled="YES" opaque="NO" tableViewCell="ZjA-nt-CWm">
+                <rect height="61" key="frame" width="320" x="0.0" y="0.0"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" id="zK9-W1-AXI" lineBreakMode="tailTruncation" opaque="NO" text="[venue name]" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                        <rect height="30" key="frame" width="280" x="20" y="5"/>
+                        <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                        <fontDescription key="fontDescription" pointSize="20" type="system"/>
+                        <color alpha="1" blue="0.23781733050000001" colorSpace="calibratedRGB" green="0.49921261449999998" key="textColor" red="0.096376921039999994"/>
+                        <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes/></label>
+                    <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" id="VjX-Kn-ndG" lineBreakMode="tailTruncation" opaque="NO" text="[venue description]" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                        <rect height="21" key="frame" width="274" x="26" y="34"/>
+                        <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                        <fontDescription key="fontDescription" pointSize="11" type="system"/>
+                        <color cocoaTouchSystemColor="darkTextColor" key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes/></label>
+                    <view contentMode="scaleToFill" id="sgc-JO-HRc">
+                        <rect height="2" key="frame" width="320" x="0.0" y="60"/>
+                        <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                        <color alpha="1" blue="0.94117647059999998" colorSpace="calibratedRGB" green="0.94117647059999998" key="backgroundColor" red="0.94117647059999998"/>
+                    <userDefinedRuntimeAttributes/></view>
+                </subviews>
+            <userDefinedRuntimeAttributes/></tableViewCellContentView>
+            <color alpha="1" colorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+            <connections>
+                <outlet destination="VjX-Kn-ndG" id="U8e-ix-bN3" property="lblDescription"/>
+                <outlet destination="zK9-W1-AXI" id="aXI-Cb-60n" property="lblVenueName"/>
+            </connections>
+        <userDefinedRuntimeAttributes/></tableViewCell>
+    </objects>
+</document>

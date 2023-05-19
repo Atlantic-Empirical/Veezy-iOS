@@ -1,0 +1,12 @@
+
+/* Class = "IBUIButton"; normalTitle = "Link Facebook"; ObjectID = "Ikp-8m-6XY"; */
+"Ikp-8m-6XY.normalTitle" = "pt_Link Facebook";
+
+/* Class = "IBUIButton"; normalTitle = "Link Twitter"; ObjectID = "jbU-WE-M1e"; */
+"jbU-WE-M1e.normalTitle" = "pt_Link Twitter";
+
+/* Class = "IBUIButton"; normalTitle = "Link Google"; ObjectID = "lQ5-oq-NQ6"; */
+"lQ5-oq-NQ6.normalTitle" = "pt_Link Google";
+
+/* Class = "IBUIButton"; normalTitle = "Cancel"; ObjectID = "uxz-gH-Wgu"; */
+"uxz-gH-Wgu.normalTitle" = "pt_Cancel";

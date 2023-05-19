@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document propertyAccessControl="none" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" toolsVersion="5053" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner"/>
+        <placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+        <tableViewCell contentMode="scaleToFill" customClass="ORHomeCell_Live" id="eIS-pt-Dov" indentationWidth="10" rowHeight="180" selectionStyle="none">
+            <rect height="180" key="frame" width="320" x="0.0" y="0.0"/>
+            <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+            <tableViewCellContentView clipsSubviews="YES" contentMode="center" id="DzR-Sx-sox" key="contentView" multipleTouchEnabled="YES" opaque="NO" tableViewCell="eIS-pt-Dov">
+                <rect height="179" key="frame" width="320" x="0.0" y="0.0"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" id="UTP-iO-wJd" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                        <rect height="176" key="frame" width="312" x="4" y="2"/>
+                        <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                    <userDefinedRuntimeAttributes/></imageView>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" id="NCD-XX-si7">
+                        <rect height="48" key="frame" width="312" x="4" y="130"/>
+                        <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" id="7Uo-Xr-1YK" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                                <rect height="36" key="frame" width="36" x="7" y="6"/>
+                                <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                            <userDefinedRuntimeAttributes/></imageView>
+                            <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" id="Fb2-cz-w9o" lineBreakMode="tailTruncation" opaque="NO" text="[User]" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                                <rect height="34" key="frame" width="261" x="51" y="-2"/>
+                                <autoresizingMask flexibleMaxY="YES" key="autoresizingMask" widthSizable="YES"/>
+                                <fontDescription family="Helvetica Neue" key="fontDescription" name="HelveticaNeue-Medium" pointSize="20"/>
+                                <color alpha="1" colorSpace="calibratedWhite" key="textColor" white="1"/>
+                                <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes/></label>
+                            <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" id="wfa-yQ-u7O" lineBreakMode="tailTruncation" opaque="NO" text="[location]" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                                <rect height="15" key="frame" width="250" x="62" y="27"/>
+                                <autoresizingMask flexibleMaxY="YES" key="autoresizingMask" widthSizable="YES"/>
+                                <fontDescription family="Helvetica Neue" key="fontDescription" name="HelveticaNeue" pointSize="12"/>
+                                <color alpha="1" blue="0.90196078430000004" colorSpace="calibratedRGB" green="0.90196078430000004" key="textColor" red="0.90196078430000004"/>
+                                <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes/></label>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" id="AHq-Da-y1i" image="location-icon-white-10x.png" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                                <rect height="10" key="frame" width="10" x="51" y="30"/>
+                                <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                            <userDefinedRuntimeAttributes/></imageView>
+                        </subviews>
+                        <color alpha="0.69999999999999996" colorSpace="calibratedWhite" key="backgroundColor" white="0.0"/>
+                    <userDefinedRuntimeAttributes/></view>
+                    <activityIndicatorView contentMode="scaleToFill" hidden="YES" hidesWhenStopped="YES" horizontalHuggingPriority="750" id="vuq-TA-cCL" opaque="NO" style="whiteLarge" verticalHuggingPriority="750">
+                        <rect height="37" key="frame" width="37" x="142" y="71"/>
+                        <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" flexibleMinX="YES" flexibleMinY="YES" key="autoresizingMask"/>
+                        <color alpha="1" blue="1" colorSpace="calibratedRGB" green="0.47843137250000001" key="color" red="0.0"/>
+                    <userDefinedRuntimeAttributes/></activityIndicatorView>
+                    <view contentMode="scaleToFill" id="Sln-Lb-iWB">
+                        <rect height="30" key="frame" width="116" x="102" y="92"/>
+                        <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                        <subviews>
+                            <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" id="el8-B8-fFA" lineBreakMode="tailTruncation" opaque="NO" text="Live Now" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                                <rect height="30" key="frame" width="85" x="31" y="0.0"/>
+                                <autoresizingMask flexibleMaxY="YES" flexibleMinX="YES" key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" pointSize="18" type="system"/>
+                                <color alpha="1" colorSpace="calibratedWhite" key="textColor" white="0.33333333333333331"/>
+                                <nil key="highlightedColor"/>
+                                <size height="1" key="shadowOffset" width="-1"/>
+                            <userDefinedRuntimeAttributes/></label>
+                            <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" id="j9f-fa-lFU" lineBreakMode="tailTruncation" opaque="NO" text="•" textAlignment="center" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                                <rect height="30" key="frame" width="28" x="0.0" y="0.0"/>
+                                <autoresizingMask flexibleMaxY="YES" flexibleMinX="YES" key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" pointSize="60" type="system"/>
+                                <color alpha="1" blue="0.0" colorSpace="calibratedRGB" green="0.0" key="textColor" red="1"/>
+                                <nil key="highlightedColor"/>
+                                <size height="-1" key="shadowOffset" width="-1"/>
+                            <userDefinedRuntimeAttributes/></label>
+                        </subviews>
+                        <color alpha="0.70000000000000007" colorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+                    <userDefinedRuntimeAttributes/></view>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" id="1rX-Mc-sTk" userLabel="View - When">
+                        <rect height="25" key="frame" width="164" x="78" y="94"/>
+                        <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                        <subviews>
+                            <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" id="7GJ-Kg-L0P" lineBreakMode="tailTruncation" opaque="NO" text="19 minutes ago" textAlignment="center" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                                <rect height="25" key="frame" width="164" x="0.0" y="-2"/>
+                                <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+                                <fontDescription family="Helvetica Neue" key="fontDescription" name="HelveticaNeue-Medium" pointSize="18"/>
+                                <color alpha="1" colorSpace="calibratedWhite" key="textColor" white="0.33333333333333331"/>
+                                <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes/></label>
+                        </subviews>
+                        <color alpha="0.59999999999999998" colorSpace="custom" customColorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+                    <userDefinedRuntimeAttributes/></view>
+                </subviews>
+            <userDefinedRuntimeAttributes/></tableViewCellContentView>
+            <color alpha="0.0" colorSpace="calibratedWhite" key="backgroundColor" white="0.0"/>
+            <connections>
+                <outlet destination="vuq-TA-cCL" id="NyO-zx-7Um" property="aiLoading"/>
+                <outlet destination="7Uo-Xr-1YK" id="WEm-Ti-MD2" property="imgAvatar"/>
+                <outlet destination="UTP-iO-wJd" id="dTp-YW-91U" property="imgThumbnail"/>
+                <outlet destination="wfa-yQ-u7O" id="e24-4y-4mr" property="lblLocation"/>
+                <outlet destination="Fb2-cz-w9o" id="RZH-wb-nIe" property="lblUserName"/>
+                <outlet destination="7GJ-Kg-L0P" id="Bng-ZJ-KnF" property="lblWhen"/>
+                <outlet destination="Sln-Lb-iWB" id="BRe-PG-Duc" property="viewLiveBadge"/>
+                <outlet destination="1rX-Mc-sTk" id="hI5-lR-ozS" property="viewNotLiveBadge"/>
+            </connections>
+        <userDefinedRuntimeAttributes/></tableViewCell>
+    </objects>
+    <resources>
+        <image height="10" name="location-icon-white-10x.png" width="10"/>
+    </resources>
+</document>

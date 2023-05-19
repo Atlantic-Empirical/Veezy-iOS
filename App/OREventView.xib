@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document propertyAccessControl="none" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" toolsVersion="5053" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder customClass="OREventView" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner">
+            <connections>
+                <outlet destination="bSM-8x-zoW" id="reQ-KP-Z9b" property="btnHome"/>
+                <outlet destination="Edu-WC-cKv" id="anG-PZ-jrY" property="btnList"/>
+                <outlet destination="F9h-co-njQ" id="xtH-7x-azz" property="btnMap"/>
+                <outlet destination="CIS-C1-2N1" id="KwC-uc-YS4" property="btnVenues"/>
+                <outlet destination="4sZ-uc-x9e" id="JPW-zT-ty5" property="imgBrandingBanner"/>
+                <outlet destination="UN8-vx-xLi" id="tUM-Ve-dIU" property="lblEventName"/>
+                <outlet destination="ogJ-XO-hwP" id="us9-z8-jTS" property="scrollerMain"/>
+                <outlet destination="1" id="3" property="view"/>
+                <outlet destination="IeQ-Qt-dXC" id="CQa-p5-BmH" property="viewActiveAreaIndicator"/>
+            </connections>
+        </placeholder>
+        <placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect height="568" key="frame" width="320" x="0.0" y="0.0"/>
+            <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" id="4sZ-uc-x9e" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                    <rect height="32" key="frame" width="300" x="10" y="0.0"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                <userDefinedRuntimeAttributes/></imageView>
+                <scrollView bounces="NO" clipsSubviews="YES" contentMode="scaleToFill" id="ogJ-XO-hwP" multipleTouchEnabled="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO">
+                    <rect height="480" key="frame" width="320" x="0.0" y="88"/>
+                    <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+                <userDefinedRuntimeAttributes/></scrollView>
+                <view contentMode="scaleToFill" id="gId-ZN-lE3">
+                    <rect height="48" key="frame" width="320" x="0.0" y="40"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                    <subviews>
+                        <view alpha="0.19999999999999968" contentMode="scaleToFill" id="IeQ-Qt-dXC">
+                            <rect height="48" key="frame" width="48" x="80" y="0.0"/>
+                            <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                            <color alpha="1" colorSpace="calibratedWhite" key="backgroundColor" white="0.0"/>
+                        <userDefinedRuntimeAttributes/></view>
+                        <button alpha="0.84999999999999987" contentHorizontalAlignment="center" contentMode="scaleToFill" contentVerticalAlignment="center" id="F9h-co-njQ" lineBreakMode="middleTruncation" opaque="NO">
+                            <rect height="48" key="frame" width="48" x="80" y="0.0"/>
+                            <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                            <color alpha="0.10000000000000001" colorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+                            <state image="map-icon-white-40x.png" key="normal">
+                                <color alpha="1" colorSpace="calibratedWhite" key="titleShadowColor" white="0.5"/>
+                            </state>
+                            <connections>
+                                <action destination="-1" eventType="touchUpInside" id="Xrn-dy-MIp" selector="btnMap_TouchUpInside:"/>
+                            </connections>
+                        <userDefinedRuntimeAttributes/></button>
+                        <button alpha="0.84999999999999987" contentHorizontalAlignment="center" contentMode="scaleToFill" contentVerticalAlignment="center" id="CIS-C1-2N1" lineBreakMode="middleTruncation" opaque="NO" tag="1">
+                            <rect height="48" key="frame" width="48" x="136" y="0.0"/>
+                            <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                            <color alpha="0.10000000000000001" colorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+                            <state image="location-icon-white-40x.png" key="normal">
+                                <color alpha="1" colorSpace="calibratedWhite" key="titleShadowColor" white="0.5"/>
+                            </state>
+                            <connections>
+                                <action destination="-1" eventType="touchUpInside" id="3Zl-Lk-tl5" selector="btnVenues_TouchUpInside:"/>
+                            </connections>
+                        <userDefinedRuntimeAttributes/></button>
+                        <button alpha="0.84999999999999987" contentHorizontalAlignment="center" contentMode="scaleToFill" contentVerticalAlignment="center" id="Edu-WC-cKv" lineBreakMode="middleTruncation" opaque="NO" tag="2">
+                            <rect height="48" key="frame" width="48" x="192" y="0.0"/>
+                            <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                            <color alpha="0.10000000000000001" colorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+                            <state image="list-icon-white-40x.png" key="normal">
+                                <color alpha="1" colorSpace="calibratedWhite" key="titleShadowColor" white="0.5"/>
+                            </state>
+                            <connections>
+                                <action destination="-1" eventType="touchUpInside" id="4Lo-PV-onv" selector="btnList_TouchUpInside:"/>
+                            </connections>
+                        <userDefinedRuntimeAttributes/></button>
+                    </subviews>
+                    <color alpha="1" blue="0.23781733050000001" colorSpace="calibratedRGB" green="0.49921261449999998" key="backgroundColor" red="0.096376921039999994"/>
+                <userDefinedRuntimeAttributes/></view>
+                <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" hidden="YES" horizontalHuggingPriority="251" id="UN8-vx-xLi" lineBreakMode="tailTruncation" opaque="NO" text="[event name]" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                    <rect height="32" key="frame" width="300" x="10" y="0.0"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                    <color alpha="0.0" colorSpace="calibratedWhite" key="backgroundColor" white="0.0"/>
+                    <fontDescription family="Helvetica Neue" key="fontDescription" name="HelveticaNeue-Thin" pointSize="22"/>
+                    <nil key="highlightedColor"/>
+                <userDefinedRuntimeAttributes/></label>
+            </subviews>
+            <color alpha="1" colorSpace="custom" customColorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        <userDefinedRuntimeAttributes/></view>
+        <button alpha="0.84999999999999987" contentHorizontalAlignment="center" contentMode="scaleToFill" contentVerticalAlignment="center" id="bSM-8x-zoW" lineBreakMode="middleTruncation" opaque="NO">
+            <rect height="48" key="frame" width="48" x="0.0" y="0.0"/>
+            <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+            <color alpha="0.10000000000000001" colorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+            <state image="home-icon-white-40x.png" key="normal">
+                <color alpha="1" colorSpace="calibratedWhite" key="titleShadowColor" white="0.5"/>
+            </state>
+            <connections>
+                <action destination="-1" eventType="touchUpInside" id="GMu-E6-j2Q" selector="btnHome_TouchUpInside:"/>
+            </connections>
+        <userDefinedRuntimeAttributes/></button>
+    </objects>
+    <resources>
+        <image height="40" name="home-icon-white-40x.png" width="40"/>
+        <image height="40" name="list-icon-white-40x.png" width="40"/>
+        <image height="40" name="location-icon-white-40x.png" width="40"/>
+        <image height="40" name="map-icon-white-40x.png" width="40"/>
+    </resources>
+</document>

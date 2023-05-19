@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document propertyAccessControl="none" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" toolsVersion="4514" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" useAutolayout="YES" version="3.0">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder customClass="OREventHomeView" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner">
+            <connections>
+                <outlet destination="vPP-tg-nrk" id="UCW-5e-Cb3" property="lblEventName"/>
+                <outlet destination="1" id="3" property="view"/>
+            </connections>
+        </placeholder>
+        <placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect height="568" key="frame" width="320" x="0.0" y="0.0"/>
+            <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+            <subviews>
+                <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" fixedFrame="YES" horizontalHuggingPriority="251" id="vPP-tg-nrk" lineBreakMode="tailTruncation" opaque="NO" text="Label" translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                    <rect height="81" key="frame" width="127" x="78" y="176"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" pointSize="17" type="system"/>
+                    <color cocoaTouchSystemColor="darkTextColor" key="textColor"/>
+                    <nil key="highlightedColor"/>
+                <userDefinedRuntimeAttributes/></label>
+            </subviews>
+            <color alpha="1" colorSpace="custom" customColorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        <userDefinedRuntimeAttributes/></view>
+    </objects>
+</document>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document propertyAccessControl="none" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" toolsVersion="4514" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder customClass="ORTrimVideoView" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner">
+            <connections>
+                <outlet destination="1" id="3" property="view"/>
+            </connections>
+        </placeholder>
+        <placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+        <view contentMode="scaleToFill" customClass="UIControl" id="1">
+            <rect height="504" key="frame" width="320" x="0.0" y="64"/>
+            <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+            <color alpha="0.80000000000000004" colorSpace="calibratedWhite" key="backgroundColor" white="0.0"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO" translucent="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <connections>
+                <action destination="-1" eventType="touchUpInside" id="Vfx-Mf-SXb" selector="view_TouchUpInside:"/>
+            </connections>
+        <userDefinedRuntimeAttributes/></view>
+    </objects>
+</document>

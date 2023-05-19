@@ -1,0 +1,56 @@
+﻿/* Profile view edit button, when viewed profile is self */
+"EditProfile" = "edit";
+
+/* List view of the followers for any other profile */
+"Followers" = "Followers";
+
+/* viewForFooterInSection label Followers: !? */
+"FollowersFooterViewLabel" = "FOLLOWERS";
+
+/* List view of the followers for the current profile */
+"FollowersForProfile" = "Followers";
+
+/* Title for the followers view in Profile */
+"FollowersViewTitle" = "Followers";
+
+/* viewForFooterInSection label Following: !? */
+"FollowingFooterViewLabel" = "FOLLOWING";
+
+/* Profile view of already followed profile */
+"FollowingProfile" = "unfollow";
+
+/* List view for following users of another profile */
+"FollowingUsers" = "FollowingUsers";
+
+/* Title for the following view in Profile */
+"FollowingViewTitle" = "Following";
+
+/* Profile view of not followed profile */
+"FollowProfile" = "follow";
+
+/* Request to follow */
+"FollowRequest" = "request";
+
+/* Requested to follow */
+"FollowRequested" = "requested";
+
+/* List view for following users when self */
+"ProfilesFollowingUsers" = "Following";
+
+/* Videos of profile */
+"ProfileVideos" = "video";
+
+/* shares a video with you? */
+"sharesVideoWithYou" = " shares a video with you?";
+
+/* Sign-in message for anonymous */
+"SignInToFollowMessage" = "Sign-in for the full Veezy experience";
+
+/* Would you like to be alerted when */
+"WouldYouLike" = "Would you like to be alerted when";
+
+/* The title for the profile view, when self */
+"You" = "You";
+
+/* Hi, I'm using Veezy */
+"ImUsingVeezy" = "Hi, I'm using Veezy";

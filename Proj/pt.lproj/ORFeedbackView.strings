@@ -1,0 +1,21 @@
+
+/* Class = "IBUILabel"; text = "Email"; ObjectID = "3RF-v6-XLS"; */
+"3RF-v6-XLS.text" = "pt_Email";
+
+/* Class = "IBUITextField"; placeholder = "Email"; ObjectID = "6ZS-HT-syQ"; */
+"6ZS-HT-syQ.placeholder" = "pt_Email";
+
+/* Class = "IBUILabel"; text = "Message"; ObjectID = "MDm-tg-beb"; */
+"MDm-tg-beb.text" = "pt_Message";
+
+/* Class = "IBUIButton"; normalTitle = "Send Feedback"; ObjectID = "YCs-JK-N76"; */
+"YCs-JK-N76.normalTitle" = "pt_Send Feedback";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "kka-9j-LXx"; */
+"kka-9j-LXx.text" = "pt_Name";
+
+/* Class = "IBUITextField"; placeholder = "Name"; ObjectID = "peY-p0-aih"; */
+"peY-p0-aih.placeholder" = "pt_Name";
+
+/* Class = "IBUILabel"; text = "X"; ObjectID = "voh-4T-Vxf"; */
+"voh-4T-Vxf.text" = "pt_X";

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document propertyAccessControl="none" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" toolsVersion="5053" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder customClass="OREventsView" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner">
+            <connections>
+                <outlet destination="cSw-rO-4YT" id="kAy-EZ-9ra" property="tblEvents"/>
+                <outlet destination="1" id="3" property="view"/>
+                <outlet destination="R71-Eq-t3F" id="8bC-5x-beO" property="viewLeadEvent"/>
+                <outlet destination="n2I-8H-qZa" id="b3D-Ki-maG" property="viewSponsorViewHost"/>
+                <outlet destination="pQW-dc-sFz" id="Utp-Rt-wnI" property="viewTableParent"/>
+            </connections>
+        </placeholder>
+        <placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect height="504" key="frame" width="320" x="0.0" y="0.0"/>
+            <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="pQW-dc-sFz">
+                    <rect height="504" key="frame" width="320" x="0.0" y="0.0"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                    <subviews>
+                        <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" id="7BQ-io-rFU" lineBreakMode="tailTruncation" opaque="NO" text="No Events Found" textAlignment="center" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                            <rect height="47" key="frame" width="300" x="10" y="8"/>
+                            <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                            <color alpha="1" colorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+                            <fontDescription family="Helvetica Neue" key="fontDescription" name="HelveticaNeue-Thin" pointSize="24"/>
+                            <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes/></label>
+                        <tableView alwaysBounceVertical="YES" clipsSubviews="YES" contentMode="scaleToFill" id="cSw-rO-4YT" rowHeight="44" sectionFooterHeight="22" sectionHeaderHeight="22" separatorStyle="none" style="plain">
+                            <rect height="504" key="frame" width="320" x="0.0" y="0.0"/>
+                            <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+                            <color alpha="1" blue="0.94117647059999998" colorSpace="calibratedRGB" green="0.94117647059999998" key="backgroundColor" red="0.94117647059999998"/>
+                            <connections>
+                                <outlet destination="-1" id="bma-3Q-zgU" property="dataSource"/>
+                                <outlet destination="-1" id="NGV-dz-Vzc" property="delegate"/>
+                            </connections>
+                        <userDefinedRuntimeAttributes/></tableView>
+                    </subviews>
+                <userDefinedRuntimeAttributes/></view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" hidden="YES" id="R71-Eq-t3F">
+                    <rect height="110" key="frame" width="300" x="10" y="0.0"/>
+                    <autoresizingMask flexibleMaxY="YES" key="autoresizingMask" widthSizable="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="VSU-vR-aMV">
+                            <rect height="26" key="frame" width="300" x="0.0" y="3"/>
+                            <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                            <color alpha="1" blue="0.94117647059999998" colorSpace="calibratedRGB" green="0.94117647059999998" key="backgroundColor" red="0.94117647059999998"/>
+                        <userDefinedRuntimeAttributes/></view>
+                        <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" id="z9d-LN-uFl" lineBreakMode="tailTruncation" opaque="NO" text="Top Event" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                            <rect height="23" key="frame" width="274" x="6" y="1"/>
+                            <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                            <fontDescription family="Helvetica Neue" key="fontDescription" name="HelveticaNeue-Light" pointSize="20"/>
+                            <color alpha="1" colorSpace="calibratedWhite" key="textColor" white="0.33333333333333331"/>
+                            <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes/></label>
+                        <view contentMode="scaleToFill" id="n2I-8H-qZa">
+                            <rect height="84" key="frame" width="300" x="0.0" y="26"/>
+                            <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                            <color alpha="1" colorSpace="custom" customColorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+                        <userDefinedRuntimeAttributes/></view>
+                    </subviews>
+                <userDefinedRuntimeAttributes/></view>
+            </subviews>
+            <color alpha="1" colorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        <userDefinedRuntimeAttributes/></view>
+    </objects>
+</document>

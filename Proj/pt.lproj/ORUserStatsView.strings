@@ -1,0 +1,66 @@
+
+/* Class = "IBUILabel"; text = "Buffer Used"; ObjectID = "0Jv-PQ-4Xc"; */
+"0Jv-PQ-4Xc.text" = "pt_Buffer Used";
+
+/* Class = "IBUILabel"; text = "--"; ObjectID = "7od-9C-Kde"; */
+"7od-9C-Kde.text" = "--";
+
+/* Class = "IBUILabel"; text = "[Minutes Buffered]"; ObjectID = "BaM-tn-r4N"; */
+"BaM-tn-r4N.text" = "[Minutes Buffered]";
+
+/* Class = "IBUILabel"; text = "[Videos]"; ObjectID = "BmY-H5-0Zx"; */
+"BmY-H5-0Zx.text" = "[Videos]";
+
+/* Class = "IBUILabel"; text = "[Space Used]"; ObjectID = "Dfm-ix-Imd"; */
+"Dfm-ix-Imd.text" = "[Space Used]";
+
+/* Class = "IBUILabel"; text = "Viewership"; ObjectID = "E2s-Ee-QfR"; */
+"E2s-Ee-QfR.text" = "pt_Viewership";
+
+/* Class = "IBUILabel"; text = "Views"; ObjectID = "Fuh-bD-pLG"; */
+"Fuh-bD-pLG.text" = "pt_Views";
+
+/* Class = "IBUILabel"; text = "Vids"; ObjectID = "HRS-xW-wET"; */
+"HRS-xW-wET.text" = "pt_Vids";
+
+/* Class = "IBUILabel"; text = "[Likes]"; ObjectID = "LjJ-RB-HNq"; */
+"LjJ-RB-HNq.text" = "[Likes]";
+
+/* Class = "IBUILabel"; text = "[Minutes]"; ObjectID = "Lz2-DR-4DL"; */
+"Lz2-DR-4DL.text" = "[Minutes]";
+
+/* Class = "IBUILabel"; text = "Min"; ObjectID = "O3f-VE-1zR"; */
+"O3f-VE-1zR.text" = "pt_Min";
+
+/* Class = "IBUILabel"; text = "Current Transfer"; ObjectID = "P6E-Ij-6Dq"; */
+"P6E-Ij-6Dq.text" = "pt_Current Transfer";
+
+/* Class = "IBUILabel"; text = "[Space Available]"; ObjectID = "RdA-j5-fdK"; */
+"RdA-j5-fdK.text" = "[Space Available]";
+
+/* Class = "IBUILabel"; text = "[Minutes of Video]"; ObjectID = "XRk-Dj-KSN"; */
+"XRk-Dj-KSN.text" = "[Minutes of Video]";
+
+/* Class = "IBUILabel"; text = "Total Stored"; ObjectID = "Xcz-I1-AJg"; */
+"Xcz-I1-AJg.text" = "pt_Total Stored";
+
+/* Class = "IBUILabel"; text = "Vids"; ObjectID = "jbB-zC-DNY"; */
+"jbB-zC-DNY.text" = "pt_Vids";
+
+/* Class = "IBUILabel"; text = "Min"; ObjectID = "k0C-yQ-y4n"; */
+"k0C-yQ-y4n.text" = "pt_Min";
+
+/* Class = "IBUILabel"; text = "Buffer Free"; ObjectID = "nm0-oq-V0P"; */
+"nm0-oq-V0P.text" = "pt_Buffer Free";
+
+/* Class = "IBUILabel"; text = "Likes"; ObjectID = "vSs-cy-SEs"; */
+"vSs-cy-SEs.text" = "pt_Likes";
+
+/* Class = "IBUILabel"; text = "Min"; ObjectID = "wcF-n1-WyI"; */
+"wcF-n1-WyI.text" = "Min";
+
+/* Class = "IBUILabel"; text = "Not Active"; ObjectID = "xdU-hz-T3M"; */
+"xdU-hz-T3M.text" = "pt_Not Active";
+
+/* Class = "IBUILabel"; text = "[Views]"; ObjectID = "yV7-vn-930"; */
+"yV7-vn-930.text" = "[Views]";

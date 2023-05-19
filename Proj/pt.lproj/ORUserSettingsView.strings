@@ -1,0 +1,69 @@
+
+/* Class = "IBUITextField"; placeholder = "Email"; ObjectID = "1kk-8B-24m"; */
+"1kk-8B-24m.placeholder" = "pt_Email";
+
+/* Class = "IBUIButton"; normalTitle = "Reset All Settings & Messages"; ObjectID = "2FI-AK-3Ri"; */
+"2FI-AK-3Ri.normalTitle" = "pt_Reset All Settings & Messages";
+
+/* Class = "IBUIButton"; normalTitle = "Feedback"; ObjectID = "5IO-EX-ERv"; */
+"5IO-EX-ERv.normalTitle" = "pt_Feedback";
+
+/* Class = "IBUIButton"; normalTitle = "Sign Out"; ObjectID = "6dS-cR-yrU"; */
+"6dS-cR-yrU.normalTitle" = "pt_Sign Out";
+
+/* Class = "IBUIButton"; normalTitle = "Stats"; ObjectID = "84g-Yj-7CU"; */
+"84g-Yj-7CU.normalTitle" = "pt_Stats";
+
+/* Class = "IBUIButton"; normalTitle = "Introduction"; ObjectID = "8AN-eb-m3x"; */
+"8AN-eb-m3x.normalTitle" = "pt_Introduction";
+
+/* Class = "IBUIButton"; normalTitle = "Reset Password"; ObjectID = "FuV-aj-tTc"; */
+"FuV-aj-tTc.normalTitle" = "pt_Reset Password";
+
+/* Class = "IBUIButton"; normalTitle = "Cancel"; ObjectID = "HJ5-oG-bS0"; */
+"HJ5-oG-bS0.normalTitle" = "pt_Cancel";
+
+/* Class = "IBUILabel"; text = "You"; ObjectID = "Hi7-4A-UVh"; */
+"Hi7-4A-UVh.text" = "pt_You";
+
+/* Class = "IBUIButton"; normalTitle = "Legal"; ObjectID = "NPx-ad-obO"; */
+"NPx-ad-obO.normalTitle" = "pt_Legal";
+
+/* Class = "IBUILabel"; text = "Location"; ObjectID = "QdH-Ma-ofE"; */
+"QdH-Ma-ofE.text" = "pt_Location";
+
+/* Class = "IBUITextField"; placeholder = "Bio"; ObjectID = "UPw-qP-ouB"; */
+"UPw-qP-ouB.placeholder" = "pt_Bio";
+
+/* Class = "IBUILabel"; text = "Email"; ObjectID = "UlC-or-9Cg"; */
+"UlC-or-9Cg.text" = "pt_Email";
+
+/* Class = "IBUITextField"; placeholder = "Location"; ObjectID = "Vjl-Ao-ORL"; */
+"Vjl-Ao-ORL.placeholder" = "pt_Location";
+
+/* Class = "IBUIButton"; normalTitle = "Technical Configuration"; ObjectID = "cG4-ns-681"; */
+"cG4-ns-681.normalTitle" = "pt_Technical Configuration";
+
+/* Class = "IBUIButton"; normalTitle = "Notifications"; ObjectID = "cbi-AX-8FJ"; */
+"cbi-AX-8FJ.normalTitle" = "pt_Notifications";
+
+/* Class = "IBUIButton"; normalTitle = "Subscription"; ObjectID = "frn-OK-c4T"; */
+"frn-OK-c4T.normalTitle" = "pt_Subscription";
+
+/* Class = "IBUITextField"; placeholder = "Name"; ObjectID = "gAi-2h-L51"; */
+"gAi-2h-L51.placeholder" = "pt_Name";
+
+/* Class = "IBUILabel"; text = "Bio"; ObjectID = "hXn-KQ-rsa"; */
+"hXn-KQ-rsa.text" = "pt_Bio";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "pQS-Zn-sLz"; */
+"pQS-Zn-sLz.text" = "pt_Name";
+
+/* Class = "IBUITextField"; placeholder = "Username"; ObjectID = "pmQ-yJ-9Hd"; */
+"pmQ-yJ-9Hd.placeholder" = "pt_Username";
+
+/* Class = "IBUILabel"; text = "Username"; ObjectID = "qiV-X5-eEf"; */
+"qiV-X5-eEf.text" = "pt_Username";
+
+/* Class = "IBUIButton"; normalTitle = "Delete Account"; ObjectID = "sSP-dS-pu7"; */
+"sSP-dS-pu7.normalTitle" = "pt_Delete Account";

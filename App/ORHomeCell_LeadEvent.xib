@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document propertyAccessControl="none" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" toolsVersion="5053" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner"/>
+        <placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+        <tableViewCell contentMode="scaleToFill" customClass="ORHomeCell_LeadEvent" id="RNL-2I-Ggz" indentationWidth="10" rowHeight="184" selectionStyle="none">
+            <rect height="184" key="frame" width="320" x="0.0" y="0.0"/>
+            <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+            <tableViewCellContentView clipsSubviews="YES" contentMode="center" id="GmL-pV-Pc4" key="contentView" multipleTouchEnabled="YES" opaque="NO" tableViewCell="RNL-2I-Ggz">
+                <rect height="183" key="frame" width="320" x="0.0" y="0.0"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label adjustsFontSizeToFit="NO" baselineAdjustment="alignBaselines" clipsSubviews="YES" contentMode="left" horizontalHuggingPriority="251" id="cIA-VP-Lbx" lineBreakMode="tailTruncation" opaque="NO" text="event" textAlignment="center" userInteractionEnabled="NO" verticalHuggingPriority="251">
+                        <rect height="41" key="frame" width="91" x="115" y="69"/>
+                        <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                        <fontDescription key="fontDescription" pointSize="17" type="system"/>
+                        <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes/></label>
+                </subviews>
+            <userDefinedRuntimeAttributes/></tableViewCellContentView>
+            <color alpha="0.0" colorSpace="calibratedWhite" key="backgroundColor" white="0.0"/>
+        <userDefinedRuntimeAttributes/></tableViewCell>
+    </objects>
+</document>

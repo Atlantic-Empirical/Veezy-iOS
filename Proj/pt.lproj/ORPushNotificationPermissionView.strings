@@ -1,0 +1,15 @@
+
+/* Class = "IBUIButton"; normalTitle = "Notify me"; ObjectID = "HS2-pK-pf0"; */
+"HS2-pK-pf0.normalTitle" = "pt_Notify me";
+
+/* Class = "IBUIButton"; normalTitle = "No thanks"; ObjectID = "IIf-XB-zRg"; */
+"IIf-XB-zRg.normalTitle" = "pt_No thanks";
+
+/* Class = "IBUILabel"; text = "Bojil Velinov"; ObjectID = "oY3-FM-onE"; */
+"oY3-FM-onE.text" = "Bojil Velinov";
+
+/* Class = "IBUILabel"; text = "Now following"; ObjectID = "on3-w9-Ny2"; */
+"on3-w9-Ny2.text" = "pt_Now following";
+
+/* Class = "IBUILabel"; text = "Would you like to be alerted when %@ shares a video with you?"; ObjectID = "qeL-B1-MDv"; */
+"qeL-B1-MDv.text" = "pt_Would you like to be alerted when %@ shares a video with you?";

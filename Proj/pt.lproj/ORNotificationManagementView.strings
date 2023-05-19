@@ -1,0 +1,18 @@
+
+/* Class = "IBUILabel"; text = "Your video was reposted"; ObjectID = "147-jJ-8ci"; */
+"147-jJ-8ci.text" = "pt_Your video was reposted";
+
+/* Class = "IBUILabel"; text = "New Like"; ObjectID = "9BO-tq-iQd"; */
+"9BO-tq-iQd.text" = "pt_New Like";
+
+/* Class = "IBUILabel"; text = "Friend is Live"; ObjectID = "O0v-Ix-NfC"; */
+"O0v-Ix-NfC.text" = "pt_Friend is Live";
+
+/* Class = "IBUILabel"; text = "New Comment"; ObjectID = "hOI-LN-kdh"; */
+"hOI-LN-kdh.text" = "pt_New Comment";
+
+/* Class = "IBUILabel"; text = "New Follower"; ObjectID = "oCq-V5-PcG"; */
+"oCq-V5-PcG.text" = "pt_New Follower";
+
+/* Class = "IBUILabel"; text = "Friend Video"; ObjectID = "yxt-VD-vT3"; */
+"yxt-VD-vT3.text" = "pt_Friend Video";

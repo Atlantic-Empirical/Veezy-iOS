@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document propertyAccessControl="none" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" toolsVersion="4514" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder customClass="ORMapDateRangeSelectorView" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner">
+            <connections>
+                <outlet destination="gXl-B4-wQx" id="t8v-fu-wD3" property="tableMain"/>
+                <outlet destination="1" id="3" property="view"/>
+            </connections>
+        </placeholder>
+        <placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect height="449" key="frame" width="160" x="0.0" y="0.0"/>
+            <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+            <subviews>
+                <tableView alwaysBounceVertical="YES" clipsSubviews="YES" contentMode="scaleToFill" id="gXl-B4-wQx" rowHeight="32" sectionFooterHeight="22" sectionHeaderHeight="22" separatorStyle="none" style="plain">
+                    <rect height="449" key="frame" width="160" x="0.0" y="0.0"/>
+                    <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+                    <color alpha="0.0" colorSpace="calibratedWhite" key="backgroundColor" white="0.0"/>
+                    <connections>
+                        <outlet destination="-1" id="Lxr-rE-Mak" property="dataSource"/>
+                        <outlet destination="-1" id="NoP-hY-IbV" property="delegate"/>
+                    </connections>
+                <userDefinedRuntimeAttributes/></tableView>
+            </subviews>
+            <color alpha="0.92000000000000004" colorSpace="custom" customColorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        <userDefinedRuntimeAttributes/></view>
+    </objects>
+</document>

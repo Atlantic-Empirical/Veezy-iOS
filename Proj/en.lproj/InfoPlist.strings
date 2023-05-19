@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  Cloudcam
+
+  Created by Bojil Velinov on 18/6/14.
+  Copyright (c) 2014 Orooso, Inc. All rights reserved.
+*/
+
+NSCameraUsageDescription = "Veezy needs your permission to access the microphone in order to record video.";
+NSContactsUsageDescription = "Find your friends using Veezy.";
+NSLocationUsageDescription = "Tag your videos with place names like \"The Eiffel Tower\" or \"The Grand Canyon\".";
+NSMicrophoneUsageDescription = "Veezy needs your permission to access the microphone in order to record video.";
+NSMotionUsageDescription = "Veezy uses the acceleromters to determine how you're holding the phone.";
+NSPhotoLibraryUsageDescription = "Select videos to upload and/or share with Veezy.";
+NSLocationWhenInUseUsageDescription = "Tag your videos with place names like \"The Eiffel Tower\" or \"The Grand Canyon\".";

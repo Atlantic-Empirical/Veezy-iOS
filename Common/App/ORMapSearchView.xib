@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document propertyAccessControl="none" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" toolsVersion="4514" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder customClass="ORMapSearchView" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner">
+            <connections>
+                <outlet destination="g3L-m7-F5g" id="6ro-C7-fhZ" property="btnDone"/>
+                <outlet destination="vt8-7t-MlR" id="xs3-tX-9id" property="tableView"/>
+                <outlet destination="gIX-uT-N4B" id="J6b-Ei-0OB" property="txtSearch"/>
+                <outlet destination="1" id="3" property="view"/>
+            </connections>
+        </placeholder>
+        <placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+        <view contentMode="scaleToFill" customClass="UIControl" id="1">
+            <rect height="568" key="frame" width="320" x="0.0" y="0.0"/>
+            <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+            <subviews>
+                <textField clipsSubviews="YES" contentHorizontalAlignment="left" contentMode="scaleToFill" contentVerticalAlignment="center" id="gIX-uT-N4B" minimumFontSize="17" opaque="NO" placeholder="Search">
+                    <rect height="30" key="frame" width="280" x="20" y="0.0"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                    <fontDescription key="fontDescription" pointSize="14" type="system"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet destination="-1" id="XYr-Kr-he0" property="delegate"/>
+                    </connections>
+                <userDefinedRuntimeAttributes/></textField>
+                <button buttonType="roundedRect" contentHorizontalAlignment="center" contentMode="scaleToFill" contentVerticalAlignment="center" hidden="YES" id="g3L-m7-F5g" lineBreakMode="middleTruncation" opaque="NO">
+                    <rect height="30" key="frame" width="37" x="263" y="0.0"/>
+                    <autoresizingMask flexibleMaxY="YES" flexibleMinX="YES" key="autoresizingMask"/>
+                    <state key="normal" title="Done">
+                        <color alpha="1" colorSpace="calibratedWhite" key="titleShadowColor" white="0.5"/>
+                    </state>
+                    <connections>
+                        <action destination="-1" eventType="touchUpInside" id="GAS-JO-SII" selector="btnDone_TouchUpInside:"/>
+                    </connections>
+                <userDefinedRuntimeAttributes/></button>
+                <tableView alwaysBounceVertical="YES" clipsSubviews="YES" contentMode="scaleToFill" id="vt8-7t-MlR" rowHeight="44" sectionFooterHeight="22" sectionHeaderHeight="22" separatorStyle="none" style="plain">
+                    <rect height="530" key="frame" width="320" x="0.0" y="38"/>
+                    <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+                    <color alpha="0.0" colorSpace="calibratedWhite" key="backgroundColor" white="0.0"/>
+                    <connections>
+                        <outlet destination="-1" id="9DZ-kz-QJ2" property="dataSource"/>
+                        <outlet destination="-1" id="UGm-5t-7ru" property="delegate"/>
+                    </connections>
+                <userDefinedRuntimeAttributes/></tableView>
+            </subviews>
+            <color alpha="0.80000000000000004" colorSpace="custom" customColorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <action destination="-1" eventType="touchUpInside" id="pG7-kN-58w" selector="view_TouchUpInside:"/>
+            </connections>
+        <userDefinedRuntimeAttributes/></view>
+    </objects>
+</document>

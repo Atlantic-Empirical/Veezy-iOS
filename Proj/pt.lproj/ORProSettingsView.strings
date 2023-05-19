@@ -1,0 +1,15 @@
+
+/* Class = "IBUILabel"; text = "500Kbps"; ObjectID = "HfI-V7-uft"; */
+"HfI-V7-uft.text" = "500Kbps";
+
+/* Class = "IBUILabel"; text = "Preserve local copies"; ObjectID = "UT1-it-q92"; */
+"UT1-it-q92.text" = "pt_Preserve local copies";
+
+/* Class = "IBUILabel"; text = "1500Kbps"; ObjectID = "dkK-Vd-BO3"; */
+"dkK-Vd-BO3.text" = "pt_1500Kbps";
+
+/* Class = "IBUILabel"; text = "Audio Bitrate"; ObjectID = "hg5-PE-3Tj"; */
+"hg5-PE-3Tj.text" = "pt_Audio Bitrate";
+
+/* Class = "IBUILabel"; text = "Video Bitrate"; ObjectID = "zgh-j5-7C1"; */
+"zgh-j5-7C1.text" = "pt_Video Bitrate";

@@ -1,0 +1,165 @@
+﻿/* A private account can be discovered via search, but no videos are visible. Only the account name, location, and profile image can be seen. New followers must be approved. */
+"AccountIsPiblicInfo" = "A private account can be discovered via search, but no videos are visible. Only the account name, location, and profile image can be seen. New followers must be approved.";
+
+/* Acknowledgements */
+"acks" = "Acknowledgements";
+
+/* Buffer Free */
+"bufferFree" = "Buffer Free";
+
+/* How much space is free on your phone and how many minutes of video that space would hold (while Veezy uploads it and clears up the space) */
+"bufferFreeMsg" = "How much space is free on your phone and how many minutes of video that space would hold (while Veezy uploads it and clears up the space)";
+
+/* Buffer Used */
+"bufferUsed" = "Buffer Used";
+
+/* How much space Veezy is using right now on your phone. If this number is above zero it is because Veezy is currently uploading your video(s) or a problem occurred. */
+"bufferUsedMsg" = "How much space Veezy is using right now on your phone. If this number is above zero it is because Veezy is currently uploading your video(s) or a problem occurred.";
+
+/* Cancel */
+"Cancel" = "Cancel";
+
+/* Veezy */
+"VeezyPairing" = "Veezy";
+
+/* Unable to unpair the selected Facebook account. Please try again later. */
+"VeezyPairingMsg" = "Unable to unpair the selected Facebook account. Please try again later.";
+
+/* Configuration */
+"Configuration" = "Configuration";
+
+/* Connect */
+"Connect" = "Connect";
+
+/* Connected */
+"Connected" = "Connected";
+
+/* Current Transfer */
+"currTransfer" = "Current Transfer";
+
+/* If Veezy is currently transfering a video to storage, the transfer speed would be provided here. */
+"currTransferMsg" = "If Veezy is currently transfering a video to storage, the transfer speed would be provided here.";
+
+/* Disconnect */
+"Disconnect" = "Disconnect";
+
+/* Cannot Disconnect */
+"FBcantDisconnect" = "Cannot Disconnect";
+
+/* You're currently signed into Veezy using your Facebook account. */
+"FBcantDisconnectMsg" = "You're currently signed into Veezy using your Facebook account.";
+
+/* Facebook Disconnected Successfully. */
+"FBDisconnectSuc" = "Facebook Disconnected Successfully.";
+
+/* Feedback */
+"Feedback" = "Feedback";
+
+/* Feedback Sent */
+"FeedbackSent" = "Feedback Sent";
+
+/* Thank you for your feedback! */
+"FeedbackSentMsg" = "Thank you for your feedback!";
+
+/* Unable to unpair the selected Google account. Please try again later. */
+"GooUnpairFailedMsg" = "Unable to unpair the selected Google account. Please try again later.";
+
+/* Google Disconnected Successfully. */
+"GooUnpairSuc" = "Google Disconnected Successfully.";
+
+/* Legal */
+"Legal" = "Legal";
+
+/* No Feedback */
+"noFeedback" = "No Feedback";
+
+/* Please type a message before sending feedback. */
+"noFeedbackMsg" = "Please type a message before sending feedback.";
+
+/* No Friends Found */
+"noFriends" = "No Friends Found";
+
+/* Sorry, we couldn't find any of your friends. */
+"noFriendsMsg" = "Sorry, we couldn't find any of your friends.";
+
+/* Not Active */
+"notActive" = "Not Active";
+
+/* Notifications */
+"Notifications" = "Notifications";
+
+/* Ok */
+"Ok" = "Ok";
+
+/* Open Source */
+"openSource" = "Open Source";
+
+/* /sec */
+"perSec" = "/sec";
+
+/* Privacy Policy */
+"pp" = "Privacy Policy";
+
+/* Privacy */
+"Privacy" = "Privacy";
+
+/* Professional */
+"Professional" = "Professional";
+
+/* Select a Twitter account to use with Veezy: */
+"selectTwitterAcc" = "Select a Twitter account to use with Veezy:";
+
+/* Social */
+"Social" = "Social";
+
+/* Stats */
+"Stats" = "Stats";
+
+/* Terms of Service */
+"tos" = "Terms of Use";
+
+/* Total Uploaded Data */
+"totalUploaded" = "Total Uploaded Data";
+
+/* Tells you how much data Veezy has used to upload your videos. */
+"totalUploadedMsg" = "Tells you how much data Veezy has used to upload your videos.";
+
+/* Total Stored */
+"totalStored" = "Total Stored";
+
+/* Tells you how many videos you have stored in Veezy and if they were all one video - how long would it be! */
+"totalStoredMsg" = "Tells you how many videos you have stored in Veezy and if they were all one video - how long would it be!";
+
+/* No Twitter Account */
+"twitterNoAccounts" = "No Twitter Account";
+
+/* It seems there are no Twitter accounts connected on this device - add one in iOS Settings > Twitter then try again. */
+"twitterNoAccountsMsg" = "It seems there are no Twitter accounts connected on this device - add one in iOS Settings > Twitter then try again.";
+
+/* Access to Twitter denied */
+"twitterNotAutorized" = "Access to Twitter denied";
+
+/* Please authorize Veezy to use your Twitter accounts in iOS Settings > Twitter then try again. */
+"twitterNotAutorizedMsg" = "Please authorize Veezy to use your Twitter accounts in iOS Settings > Twitter then try again.";
+
+/* Cannot Unpair */
+"twitterUnpair" = "Cannot Unpair";
+
+/* You're currently signed into Veezy using your Twitter account. */
+"twitterUnpairMsg" = "You're currently signed into Veezy using your Twitter account.";
+
+/* Twitter Disconnected Successfully. */
+"twitterUnpairSuc" = "Twitter Disconnected Successfully.";
+
+/* Unable to unpair the selected Twitter account. Please try again later. */
+"twitterUnpairTryAgain" = "Unable to unpair the selected Twitter account. Please try again later.";
+
+/* Viewership */
+"viewership" = "Viewership";
+
+/* How many views and likes have all your videos gotten, total, combined. */
+"viewershipMsg" = "How many views and likes have all your videos gotten, total, combined.";
+
+/* Prevents video upload over mobile network. */
+"WifiTransferOnly" = "Prevents video upload over mobile network.";
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document propertyAccessControl="none" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" toolsVersion="5053" type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder customClass="ORYouView" id="-1" placeholderIdentifier="IBFilesOwner" userLabel="File's Owner">
+            <connections>
+                <outlet destination="HO1-D4-b06" id="bcs-CY-R8V" property="btnLikes"/>
+                <outlet destination="mRa-Qd-Hl6" id="gcW-E8-Rrz" property="btnVideos"/>
+                <outlet destination="QI9-1I-CTw" id="BPc-GP-elt" property="scrollView"/>
+                <outlet destination="1" id="3" property="view"/>
+                <outlet destination="7FQ-sf-fbg" id="4xZ-Dv-KQy" property="viewIndicator"/>
+            </connections>
+        </placeholder>
+        <placeholder customClass="UIResponder" id="-2" placeholderIdentifier="IBFirstResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect height="504" key="frame" width="320" x="0.0" y="64"/>
+            <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+            <subviews>
+                <button buttonType="roundedRect" contentHorizontalAlignment="center" contentMode="scaleToFill" contentVerticalAlignment="center" id="mRa-Qd-Hl6" lineBreakMode="middleTruncation" opaque="NO">
+                    <rect height="44" key="frame" width="71" x="17" y="0.0"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                    <color alpha="0.0" colorSpace="calibratedWhite" key="backgroundColor" white="0.0"/>
+                    <fontDescription family="Helvetica Neue" key="fontDescription" name="HelveticaNeue-Light" pointSize="20"/>
+                    <state key="normal" title="Yours">
+                        <color alpha="1" colorSpace="calibratedWhite" key="titleColor" white="0.33333333333333331"/>
+                        <color alpha="1" colorSpace="calibratedWhite" key="titleShadowColor" white="0.5"/>
+                    </state>
+                    <connections>
+                        <action destination="-1" eventType="touchUpInside" id="Db0-xy-ggk" selector="btnVideos_TouchUpInside:"/>
+                    </connections>
+                <userDefinedRuntimeAttributes/></button>
+                <button buttonType="roundedRect" contentHorizontalAlignment="center" contentMode="scaleToFill" contentVerticalAlignment="center" id="HO1-D4-b06" lineBreakMode="middleTruncation" opaque="NO">
+                    <rect height="44" key="frame" width="78" x="121" y="0.0"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                    <color alpha="0.0" colorSpace="calibratedWhite" key="backgroundColor" white="0.0"/>
+                    <fontDescription family="Helvetica Neue" key="fontDescription" name="HelveticaNeue-Light" pointSize="20"/>
+                    <state key="normal" title="Favorites">
+                        <color alpha="1" colorSpace="calibratedWhite" key="titleColor" white="0.33333333333333331"/>
+                        <color alpha="1" colorSpace="calibratedWhite" key="titleShadowColor" white="0.5"/>
+                    </state>
+                    <connections>
+                        <action destination="-1" eventType="touchUpInside" id="dXz-0w-gRW" selector="btnLikes_TouchUpInside:"/>
+                    </connections>
+                <userDefinedRuntimeAttributes/></button>
+                <view contentMode="scaleToFill" id="7FQ-sf-fbg">
+                    <rect height="1" key="frame" width="64" x="20" y="39"/>
+                    <autoresizingMask flexibleMaxX="YES" flexibleMaxY="YES" key="autoresizingMask"/>
+                    <color alpha="1" colorSpace="calibratedWhite" key="backgroundColor" white="0.33333333333333331"/>
+                <userDefinedRuntimeAttributes/></view>
+                <scrollView clipsSubviews="YES" contentMode="scaleToFill" id="QI9-1I-CTw" multipleTouchEnabled="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO">
+                    <rect height="460" key="frame" width="320" x="0.0" y="44"/>
+                    <autoresizingMask heightSizable="YES" key="autoresizingMask" widthSizable="YES"/>
+                    <color alpha="1" colorSpace="calibratedWhite" key="backgroundColor" white="1"/>
+                    <connections>
+                        <outlet destination="-1" id="4bT-EA-HVa" property="delegate"/>
+                    </connections>
+                <userDefinedRuntimeAttributes/></scrollView>
+            </subviews>
+            <color alpha="1" blue="0.94117647059999998" colorSpace="calibratedRGB" green="0.94117647059999998" key="backgroundColor" red="0.94117647059999998"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO" translucent="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        <userDefinedRuntimeAttributes/></view>
+    </objects>
+</document>

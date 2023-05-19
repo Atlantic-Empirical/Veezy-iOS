@@ -1,0 +1,117 @@
+﻿/* Are you sure you want to delete everything? There's no going back from here. */
+"areYouSure" = "Are you sure you want to delete everything? There's no going back from here.";
+
+/* Avatar Touch: Cancel */
+"AvatarTouchCancel" = "Cancel";
+
+/* Avatar Touch: Select Photo From Library */
+"AvatarTouchSelectPhoto" = "Select Photo From Library";
+
+/* Avatar Touch: Take Photo With Camera */
+"AvatarTouchTakePhoto" = "Take Photo With Camera";
+
+/* Cancel */
+"Cancel" = "Cancel";
+
+/* and cannot be undone. */
+"cantBeUndone" = "and cannot be undone.";
+
+/* Change Password */
+"changePassword" = "Change Password";
+
+/* Config */
+"Config" = "Config";
+
+/* CONFIRM */
+"confirm" = "CONFIRM";
+
+/* Hmm, seems we couldn't find an account associated with that email address. Two options: try a different email or setup a new account (remember how easy that was?). You can also contact us with any questions at support@ */
+"couldntFindYourAccount" = "Hmm, seems we couldn't find an account associated with that email address. Two options: try a different email or setup a new account (remember how easy that was?). You can also contact us with any questions at support@";
+
+/* DELETE ACCOUNT */
+"deleteAccount" = "DELETE ACCOUNT";
+
+/* Delete Account */
+"deleteAccountTitle" = "Delete Account";
+
+/* Email in use */
+"EmailInUse" = "Email in use";
+
+/* Emain in Use cancel button title: OK */
+"EmailInUseCancelButton" = "OK";
+
+/* This email address is already in use by another account. */
+"EmainInUseMessage" = "This email address is already in use by another account.";
+
+/* We've encountered a problem while requesting a password reset:  */
+"errorPasswordReset" = "We've encountered a problem while requesting a password reset:";
+
+/* Failed to reset to defaults. Could be due to lack of internet connection. */
+"failedToReset" = "Failed to reset to defaults. Could be due to lack of internet connection.";
+
+/* If you sign-out now the uploads will be cancelled and the videos will be removed from the phone (for your privacy). */
+"IfYouSignOut" = "If you sign-out now the uploads will be cancelled and the videos will be removed from the phone (for your privacy).";
+
+/* This will immediately delete your account, including your */
+"immediatelyDelete" = " This will immediately delete your account, including your";
+
+/* Invalid Email */
+"invalidEmail" = "Invalid Email";
+
+/* Lost Password */
+"LostPassword" = "Lost Password";
+
+/* We've sent you an email that makes it simple to set a new password for your account. */
+"newPasswordEmail" = "We've sent you an email that makes it simple to set a new password for your account.";
+
+/* No */
+"No" = "No";
+
+/* OK */
+"OK" = "OK";
+
+/* Reset */
+"Reset" = "Reset";
+
+/* Reset all settings to their defaults? */
+"resetSettings" = "Reset all settings to their defaults?";
+
+/* Settings reset to defaults. */
+"resetToDefaults" = "Settings reset to defaults.";
+
+/* The email address seems to be invalid. */
+"seemsInvalid" = "The email address seems to be invalid.";
+
+/* Settings */
+"settings" = "Settings";
+
+/* Sign out and delete videos */
+"SignOut" = "Sign out and delete videos";
+
+/* Do you want to keep the videos you shot? You'll need a way to sign back in... */
+"SignOutAccType3" = "Do you want to keep the videos you shot? You'll need a way to sign back in...";
+
+/* Sign-in to edit your profile! */
+"signToEdit" = "Sign-in to edit your profile!";
+
+/* String 'there are' to be used when videos count is > 1 */
+"thereAre" = "there are";
+
+/* String 'there is' to be used when videos count is = 1 */
+"thereIs" = "there is";
+
+/* String: uploading */
+"uploading" = "uploading";
+
+/* String 'videos' to be used when videos count is > 1 */
+"videoPlural" = "videos";
+
+/* String 'video' to be used when videos count is = 1 */
+"videoSingular" = "video";
+
+/* Do you want to sign out? */
+"WantToSignOut" = "Do you want to sign out?";
+
+/* Yes */
+"Yes" = "Yes";
+
